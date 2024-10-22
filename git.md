@@ -41,3 +41,37 @@ git config user.email
 ```
 git config --get remote.origin.url
 ```
+## Frequently Used Commands:
+```
+git fetch
+```
+```
+git status
+```
+```
+git init
+```
+```
+git add <file_name>
+```
+### - same as: git add -A
+```
+git add .
+```
+```
+git commit -m "message"
+```
+### - skip staging
+```
+git commit -a -m "message"
+```
+```
+git commit --help
+```
+```
+git commit --amend
+```
+
+
+
+
