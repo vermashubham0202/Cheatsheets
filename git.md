@@ -152,11 +152,170 @@ git diff --staged
 ```
 git diff <branch-name>
 ```
-
-
-
-
-
+## Branches:
+```
+git branch
+```
+```
+git branch --merged
+```
+```
+git branch --no-merged
+```
+### - branches with last commit: hash-code and message
+```
+git branch -v
+```
+```
+git branch <branch-name>
+```
+```
+git checkout -b <new-branch-name>
+```
+### - commit before switching
+```
+git checkout <branch-name-to-move>
+```
+### - run from destination branch
+```
+git merge <branch-name>
+```
+```
+git branch -d <merged-branch-name-to-delete>
+```
+```
+git branch -D <unmerged-branch-name-to-delete>
+```
+## Tags:
+```
+git tag
+```
+```
+git tag -a "tag-name" -m "message" <commit-id>
+```
+```
+git show <tag-name>
+```
+```
+git tag -d <tag-name>
+```
+## Renaming and Removing Files:
+```
+git rm <file-name>
+```
+```
+git rm --cached <file-name>
+```
+```
+git mv <old-file-name> <new-file-name>
+```
+## Remove Untracked Files:
+### - dry-run
+```
+git clean -n
+```
+### - force removal
+```
+git clean -f
+```
+## Stashing:
+```
+git stash
+```
+```
+git stash list
+```
+### - n = 0, 1, 2, 3, ...
+```
+git stash apply stash@{n}
+```
+```
+git stash clear
+```
+## Reset (Before Commit):
+### - same as: git restore --staged <file-name>
+```
+git reset <file-name>
+```
+### - for staging area (all files)
+```
+git reset .
+```
+### - for staging area and working directory both (all files)
+```
+git reset --hard
+```
+## Revert (After Commit):
+```
+git revert <wrong-commit-id>
+```
+## .gitignore:
+```
+vi .gitignore
+```
+### - after adding extensions or file names/directory in .gitignore file
+```
+git add .gitignore
+```
+## Stop Tracking Directory:
+```
+rm -rf .git
+```
+## Cloning:
+```
+git clone <url>
+```
+```
+git clone <url> <custom-directory-name>
+```
+## Remote:
+```
+git remote
+```
+```
+git remote -v
+```
+### - fetch commit history of the remote repo
+```
+git fetch origin
+```
+### - origin = remote-name (any-name), master = branch-name (any-name)
+```
+git push -u origin master
+```
+```
+git push <remote-name> <branch-name>
+```
+```
+git push origin <branch-name-in-local-repo>:<new-branch-name-in-remote-repo>
+```
+```
+git push origin --all
+```
+### - pull = fetch + merge
+```
+git pull -u origin master
+```
+```
+git remote add origin <remote-url>
+```
+### - origin (above command) can be replaced by any other name
+```
+git remote add <remote-name> <remote-url>
+```
+```
+git push <remote-name> <new-remote-branch-name>
+```
+```
+git push -d <remote-name> <branch-name>
+```
+### - Adding Multiple Remote URLs:
+```
+git remote set-url --add --push <remote-name> <remote-url-1>
+```
+```
+git remote set-url --add --push <remote-name> <remote-url-2>
+```
 
 
 
