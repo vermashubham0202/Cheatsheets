@@ -71,6 +71,85 @@ git commit --help
 ```
 git commit --amend
 ```
+## Checkout Files:
+```
+git checkout <commit-hash>
+```
+### - Dangerous commands (Below 2 commands):
+```
+git checkout -- <file-name>
+```
+### - Change all files to the previous commit
+```
+git checkout -f
+```
+## View Commits:
+```
+git log
+```
+```
+git log -n    # n = 1, 2, 3, ...
+```
+```
+git log --oneline
+```
+```
+git log --grep "keyword"
+```
+```
+git log -p
+```
+```
+git log -p -n   # n = 1, 2, 3, ...
+```
+```
+git log --stat
+```
+```
+git log --pretty=oneline
+```
+```
+git log --pretty=short
+```
+```
+git log --pretty=full
+```
+### h = hash, an = author name
+```
+git log --pretty=format:"%h - %an"
+```
+### ae = author email (find all formatting on: git-scm.com)
+```
+git log --pretty=format:"%h - %ae"
+```
+```
+git log --since=2.days
+```
+```
+git log --since=2.weeks
+```
+```
+git log --since=2.months
+```
+```
+git log --since=2.years
+```
+```
+git show <commit-id>
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
