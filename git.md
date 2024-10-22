@@ -87,8 +87,9 @@ git checkout -f
 ```
 git log
 ```
+### - n = 1, 2, 3, ...
 ```
-git log -n    # n = 1, 2, 3, ...
+git log -n
 ```
 ```
 git log --oneline
@@ -99,8 +100,9 @@ git log --grep "keyword"
 ```
 git log -p
 ```
+### - n = 1, 2, 3, ...
 ```
-git log -p -n   # n = 1, 2, 3, ...
+git log -p -n
 ```
 ```
 git log --stat
@@ -114,11 +116,11 @@ git log --pretty=short
 ```
 git log --pretty=full
 ```
-### h = hash, an = author name
+### - h = hash, an = author name
 ```
 git log --pretty=format:"%h - %an"
 ```
-### ae = author email (find all formatting on: git-scm.com)
+### - ae = author email (find all formatting on: git-scm.com)
 ```
 git log --pretty=format:"%h - %ae"
 ```
