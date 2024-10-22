@@ -30,7 +30,7 @@ git config --global alias.<your-alias-name> 'command-with-options'
 ```
 ## View Configuration:
 ```
-git config –list
+git config --list
 ```
 ```
 git config user.name
