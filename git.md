@@ -139,7 +139,19 @@ git log --since=2.years
 ```
 git show <commit-id>
 ```
-
+## Difference:
+### - diff. b/w working area files v/s stage area files
+```
+git diff
+```
+### - diff. b/w stage area files v/s last commit files
+```
+git diff --staged
+```
+### - diff. b/w current-branch v/s branch-name
+```
+git diff <branch-name>
+```
 
 
 
