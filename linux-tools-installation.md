@@ -72,6 +72,7 @@ sudo apt-get install alacarte
 ```
 sudo apt-get install php
 ```
+```
 sudo apt-get install libapache2-mod-php
 ```
 ## Apache webserver installation:
