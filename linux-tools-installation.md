@@ -182,33 +182,33 @@ sudo apt-get install nvidia-driver
 sudo apt-get install simple-scan
 ```
 ## Audio Video Editing Tool:
-
+```
 sudo apt-get install kdenlive
-
+```
 ## Debian package installer:
-
+```
 sudo apt-get install gdebi
-
+```
 ## Git:
-
+```
 sudo apt-get install git
-
+```
 ## Deleted file recovery tool (Support all extensions recovery):
-
+```
 sudo apt-get install testdisk
-
+```
 ## Image editor:
-
+```
 sudo apt-get install gimp
-
+```
 ## rename command linux:
-
+```
 sudo apt-get install rename
-
+```
 ## tree command linux:
-
+```
 sudo apt-get install tree
-
+```
 ## Bluetooth Manager driver:
 ```
 sudo apt-get install blueman
