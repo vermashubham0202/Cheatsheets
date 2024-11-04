@@ -264,6 +264,7 @@ ssh -i security-key.pem shubham@ec2-13-233-206-224.ap-south-1.compute.amazonaws.
 ```
 ## To set 'prt sc' button for screenshot in xfce:
 Go to : Settings -> Keyboard -> Application Shortcut
+
 Create new shortcut : "xfce4-screenshooter -f" and press PrtSc button.
 ## Eclipse root issue fix:
 ```
